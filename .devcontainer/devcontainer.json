@@ -15,7 +15,7 @@
 
 	"onCreateCommand": "cp -n .env.example .env",
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "pip install -r requirements.txt"
+	"postCreateCommand": "pip install -r src/requirements.txt"
 	
 	// Configure tool-specific properties.
 	// "customizations": {},
